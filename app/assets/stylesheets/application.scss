@@ -1,13 +1,18 @@
 @import "./reset";
 @import "font-awesome";
+@import "./user";
+
+@import "./side-group";
+@import "./side-header";
 
 @import "./main-header";
-@import "./group";
-
-@import "./side-header";
 @import "./message";
 @import "./form";
 
+@import "./group";
+
+@import "./colors";
+@import "./flash";
 
 
 .chat-side {
@@ -20,3 +25,4 @@
   width: calc(100vw - 300px);
   float: left;
 }
+
