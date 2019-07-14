@@ -8,11 +8,14 @@
 
 .new_message{
   display: flex;
+  position: relative;
+  width: 100%;
+  padding: 0 40px 0 10px;
 }
 
 .input-box{
-  position: relative;
-  width: 100%;
+  // position: relative;
+  // width: 100%;
 
   &__text {
     height: 50px;
@@ -25,7 +28,7 @@
     font-size: 1.3rem;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 170px;
     cursor: pointer;
 
     &__file {
