@@ -18,3 +18,5 @@
 
 #投稿された画像自体はソースコードには関係のないものなのでGithubにコミットされないようにする記述
 public/uploads/*
+
+config/secrets.yml
