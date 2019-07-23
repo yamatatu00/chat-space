@@ -92,7 +92,9 @@ $(function(){
         insertHTML += buildMessageHTML(message);
       });
       $('.messages').append(insertHTML)
+      if (messages.length !== 0){
       scroll();
+      }
     })
     .fail(function() {
       console.log('error');
