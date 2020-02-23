@@ -75,3 +75,5 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 gem 'nokogiri', ">= 1.10.4"
+gem "excon", ">= 0.71.0"
+gem "rack", ">= 2.0.8"
